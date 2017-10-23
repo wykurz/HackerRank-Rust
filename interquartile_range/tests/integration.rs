@@ -20,3 +20,8 @@ fn test_output(input:&str, output:&str) {
 fn test1() {
     test_output("6\n6 12 8 10 20 16\n5 4 3 2 1 5", "9.0\n");
 }
+
+#[test]
+fn test2() {
+    test_output("7\n1 2 3 4 5 6 7\n1 1 1 1 1 1 1", "5.0\n");
+}
