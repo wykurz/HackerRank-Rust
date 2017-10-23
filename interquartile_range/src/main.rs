@@ -12,7 +12,7 @@ fn run(x:Vec<i64>, f:Vec<usize>) -> f64 {
     }
     v.sort();
     let hsize = n / 2;
-    if hsize & 2 == 1 {
+    if hsize & 1 == 1 {
         let i = hsize / 2;
         let q1 = v[i];
         let q3 = v[n - 1 - i];
