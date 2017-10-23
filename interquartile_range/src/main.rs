@@ -17,7 +17,7 @@ fn run(x:Vec<i64>, f:Vec<usize>) -> f64 {
         let q1 = v[i];
         let q3 = v[n - 1 - i];
         writeln!(std::io::stderr(), "A: i: {}, q1: {}, q3: {}", i, q1, q3);
-        return (v[n - 1 - i] - v[i]) as f64;
+        return (q3 - q1) as f64;
     }
     assert!(hsize > 1);
     let i = hsize / 2 - 1;

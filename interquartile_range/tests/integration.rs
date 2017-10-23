@@ -25,3 +25,8 @@ fn test1() {
 fn test2() {
     test_output("7\n1 2 3 4 5 6 7\n1 1 1 1 1 1 1", "5.0\n");
 }
+
+#[test]
+fn test3() {
+    test_output("8\n1 2 3 4 5 6 7 8\n1 1 1 1 1 1 1", "4.0\n");
+}
